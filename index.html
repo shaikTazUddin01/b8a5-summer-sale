@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,22 +25,23 @@
         font-family: 'Work Sans', sans-serif;
     }
 </style>
+
 <body>
     <!-- header section start -->
     <header class="bg-[#F9F6E2;]">
         <section class="container mx-auto">
             <div class="flex flex-col md:flex-row lg:flex-row  w-full items-center py-10 gap-4">
-                <div class="banner-conatant w-3/6 text-center">
+                <div class="banner-conatant w-3/4 md:w-3/6 text-center">
                     <p class="text-xl md:text-2xl lg:text-3xl mb-8 md:mb-10 lg:mb-11">---SALE FEVER---</p>
                     <h1 class="text-3xl md:text-4xl lg:text-5xl mb-10 md:mb-14 lg:mb-16 font-bold">Purchase TK 200 or
                         <br>above & get <span class="text-[#E527B2]">20% off</span>
                     </h1>
                     <div class="flex-col md:flex-row gap-2 items-center">
                         <p class="text-lg md:text-xl lg:text-2xl inline font-medium">Use Promo Code</p>
-                        <p class="bg-[#E527B2] text-white px-5 py-3 rounded-md  inline font-semibold">SELL200</p>
+                        <p class="bg-[#E527B2] text-white px-5 py-3 rounded-md inline font-semibold ">SELL200</p>
                     </div>
                 </div>
-                <div class="banner-img w-3/6">
+                <div class="banner-img w-3/4 md:w-3/6">
                     <img src="./images/Summer 1.png" alt="" class="h-[100%] lg:h-[80%]">
                 </div>
             </div>
@@ -49,6 +51,8 @@
     <main class="bg-[#F8F8F8] py-10 md:py-10 lg:py-16">
         <!-- product & shopping card area -->
         <div class="flex flex-col md:flex-col lg:flex-row gap-4 container px-16 mx-auto">
+
+
             <div class="flex-1">
                 <!-- product -->
                 <!-- Kitchenware area -->
@@ -180,7 +184,77 @@
                                         id="sportswearProductIdThreeprice">159.00</span> TK</p>
                             </div>
                         </div>
+
                     </div>
+                </div>
+
+                <!-- Furniture area -->
+                <div class="mt-10">
+                    <h1 class="text-4xl font-semibold mb-10">Furniture</h1>
+                    <!-- card -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                        <!-- card-1 -->
+                        <div class="card bg-base-100 shadow-xl p-5 mb-5" onclick="furnitureProductIdOneprice()">
+                            <figure class="px-10 pt-10 bg-[#f8f8f8] ">
+                                <img src="./images/prod7.png" alt="Shoes" class="rounded-xl bg-[#f8f8f8]" />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                                <!-- rating -->
+                                <div class="flex ">
+                                    <span class="text-xl mr-[2px] fa fa-star text-[orange]"></span>
+                                    <span class="text-xl mr-[2px] fa fa-star text-[orange]"></span>
+                                    <span class="text-xl mr-[2px] fa fa-star text-[orange]"></span>
+                                    <span class="text-xl mr-[2px] fa fa-star text-[orange]"></span>
+                                    <span class="text-xl mr-[2px] fa fa-star "></span>
+
+                                </div>
+                                <h2 class="card-title font-semibold text-xl">Single Relax Chair</h2>
+                                <p class="text-[#11111180] text-xl font-normal"><span
+                                        id="furnitureProductIdOneprice">185.00</span> TK</p>
+                            </div>
+                        </div>
+                        <!-- card-2 -->
+                        <div class="card bg-base-100 shadow-xl p-5 mb-5" onclick="furnitureProductIdTwoprice()">
+                            <figure class="px-10 pt-10 bg-[#f8f8f8] ">
+                                <img src="./images/prod8.png" alt="Shoes" class="rounded-xl bg-[#f8f8f8]" />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                                <!-- rating -->
+                                <div class="flex ">
+                                    <span class="text-xl mr-[2px] fa fa-star text-[orange]"></span>
+                                    <span class="text-xl mr-[2px] fa fa-star text-[orange]"></span>
+                                    <span class="text-xl mr-[2px] fa fa-star text-[orange]"></span>
+                                    <span class="text-xl mr-[2px] fa fa-star text-[orange]"></span>
+                                    <span class="text-xl mr-[2px] fa fa-star text-[orange]"></span>
+                                </div>
+                                <h2 class="card-title font-semibold text-xl">Children play</h2>
+                                <p class="text-[#11111180] text-xl font-normal"><span
+                                        id="furnitureProductIdTwoprice">299.00</span> TK</p>
+                            </div>
+                        </div>
+                        <!-- card-3 -->
+                        <div class="card bg-base-100 shadow-xl p-5 mb-5" onclick="furnitureProductIdThreeprice()">
+                            <figure class="px-10 pt-10 bg-[#f8f8f8] ">
+                                <img src="./images/prod9.png" alt="Shoes" class="rounded-xl bg-[#f8f8f8]" />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                                <!-- rating -->
+                                <div class="flex ">
+                                        <span class="text-xl mr-[2px] fa fa-star text-[orange]"></span>
+                                        <span class="text-xl mr-[2px] fa fa-star text-[orange]"></span>
+                                        <span class="text-xl mr-[2px] fa fa-star text-[orange]"></span>
+                                        <span class="text-xl mr-[2px] fa fa-star text-[orange]"></span>
+                                        <span class="text-xl mr-[2px] fa fa-star text-[orange]"></span>
+                                </div>
+                                    <h2 class="card-title font-semibold text-xl">Flexible Sofa</h2>
+                                    <p class="text-[#11111180] text-xl font-normal"><span
+                                            id="furnitureProductIdThreeprice">339.00</span> TK</p>
+                                
+                            </div>
+
+                        </div>
+                    </div>
+
                 </div>
 
             </div>
@@ -238,7 +312,7 @@
                     </div>
                 </form>
             </dialog>
-        </div>
+        </div>>
     </main>
     <script src="./js/calculateProduct.js"></script>
 </body>

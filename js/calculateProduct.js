@@ -13,7 +13,6 @@ function productList(productName) {
     p.classList.add('mb-2')
     p.innerHTML = `${count + 1}. ${productName}`;
     productEntry.appendChild(p);
-
 }
 
 
@@ -123,5 +122,29 @@ function sportswearProductIdThreeprice() {
     const price = productPrice('sportswearProductIdThreeprice');
     totalPrice(price)
     productList('Sports cates')
+    total()
+}
+
+// furniture area
+
+// Single Relax Chair
+function furnitureProductIdOneprice() {
+    const price = productPrice('furnitureProductIdOneprice');
+    totalPrice(price)
+    productList('Single Relax Chair')
+    total()
+}
+// Children play
+function furnitureProductIdTwoprice() {
+    const price = productPrice('furnitureProductIdTwoprice');
+    totalPrice(price)
+    productList('Children play')
+    total()
+}
+// Flexible Sofa
+function furnitureProductIdThreeprice() {
+    const price = productPrice('furnitureProductIdThreeprice');
+    totalPrice(price)
+    productList('Flexible Sofa')
     total()
 }
